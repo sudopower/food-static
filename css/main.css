@@ -125,6 +125,7 @@ p{
 
 .left{
     text-align: left !important;
+    justify-content: flex-start !important;
 }
 
 .bold{
