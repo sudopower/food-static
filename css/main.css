@@ -46,6 +46,11 @@ p{
     max-width: 90% !important;
 }
 
+.w-100{
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
 .mt-1{
     margin-top:10px!important;
 }
@@ -90,10 +95,15 @@ p{
     padding-top:60px!important;
 }
 
+.pb-3{
+    padding-bottom:30px!important;
+}
+
+
 .header{
     background-image: url(../img/top.jpg);
     background-size: cover;
-    height: 400px;
+    height: 300px;
 }
 
 .content{
@@ -124,13 +134,13 @@ p{
 
 .content-body{
    background: #fff;
-    width: 80%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: -5px;
-    padding-bottom: 20px;
-    margin-bottom: 100px;
+   width: 80%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: -6px;
+   padding-bottom: 20px;
+   margin-bottom: 100px;
 }
 
 .direction-column{
@@ -173,7 +183,7 @@ li:before {
 
 .logo img{
     width: 200px;
-    border-radius: 20px
+    border-radius: 20px;
 }
 
 .banner{
@@ -238,6 +248,7 @@ li:before {
 table{
     width: 100%;
     border-spacing: 4px 2px;
+    word-break: break-word;
 }
 
 .ing-table tr td:nth-child(1){
@@ -257,6 +268,10 @@ table{
     padding:3px 20px 3px 20px;
 }
 
+.detox-table-1{
+    margin-bottom: 50px!important;
+}
+
 .y-n-table th{
     position: relative;
     height: 80px;
@@ -265,11 +280,16 @@ table{
     font-size: 20px;
 }
 
+.y-n-table li{
+    margin-bottom: 15px !important;
+}
+
 .y-n-table th img{
     width: 20%;
     position: absolute;
     top: -50%;
-    left: 44%;
+    left: 50%;
+    transform: translateX(-50%);
     max-width: 80px;
 }
 
@@ -384,10 +404,15 @@ td{
         position: absolute;
         top: -25%;
         max-width: 80px;
-        left: 35%;
     }
     .y-n-table th {
         font-size: 15px;
+    }
+    .y-n-table li{
+        margin-bottom: 10px !important;
+    }    
+    .detox-table-1{
+        margin-bottom: 0px !important;
     }
 }
 
@@ -414,10 +439,15 @@ td{
         position: absolute;
         top: -35%;
         max-width: 80px;
-        left: 35%;
     }
     .y-n-table th {
         font-size: 15px;
+    }
+    .y-n-table li{
+        margin-bottom: 10px !important;
+    }
+    .detox-table-1{
+        margin-bottom: 20px !important;
     }
 }
 
@@ -447,9 +477,11 @@ td{
         position: absolute;
         top: -50% !important;
         max-width: 80px;
-        left: 35%;
     }
     .y-n-table th {
         font-size: 15px;
+    }
+    .logo img{
+        width:150px;
     }
 }
