@@ -36,6 +36,10 @@ p{
     width: 45% !important;
 }
 
+.w-30{
+    width: 30% !important;
+}
+
 .w-80{
     width: 80% !important;
     max-width: 80% !important;
@@ -128,8 +132,46 @@ p{
     font-family: ArialB,sans-serif;
 }
 
+.detox-header-3{
+    max-width: 200px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.detox-header-3 p {
+    right: 10%;
+    left: unset;
+}
+
 .detox-header img{
     width:80px !important;
+}
+
+.detox-tips li{
+    transform: translate(10px, 0px);
+}
+
+.nutrients-consume li{
+    transform: translate(0px, 0px);
+}
+
+.detox-header-2{
+    min-height: 30px;
+    padding: 20px;
+    font-size: 28px;
+}
+
+.detox-header-2 img{
+    top: -25% !important;
+}
+
+.detox-header-2 p{
+    font-family: Arial,sans-serif;
+    width: 70%;
+}
+
+.detox-header p{
+    letter-spacing: 2px;
 }
 
 .content-body{
@@ -414,6 +456,25 @@ td{
     .detox-table-1{
         margin-bottom: 0px !important;
     }
+    .detox-header-2 img {
+       top: -7% !important;
+    }
+    .detox-header-2 {
+        font-size: 15px;
+        padding: 20px 0px 20px 0px;        
+    }
+    .detox-header-2 p{
+        width:70%;
+        left:4%;
+    }
+    .detox-header-3{
+        margin-left: 0;
+        margin-left: 0;
+        font-size: 15px;
+        padding-top: 0;
+        padding-bottom: 0;
+        max-width: 100px;
+    }
 }
 
 @media only screen and (min-width:400px) and (max-width:768px){
@@ -449,6 +510,20 @@ td{
     .detox-table-1{
         margin-bottom: 20px !important;
     }
+    .detox-header-2{
+        font-size: 15px;
+        padding: 20px 0px 20px 0px;
+    }
+    .detox-header-2 img {
+       top: -7% !important;
+    }   
+    .detox-header-3{
+        margin-left: 0;
+        font-size: 15px;
+        padding-top: 0;
+        padding-bottom: 0;
+        max-width: 100px;
+    } 
 }
 
 @media only screen and (width:768px){
@@ -483,5 +558,11 @@ td{
     }
     .logo img{
         width:150px;
+    }
+    .detox-header-2{
+        font-size: 18px;
+    }
+    .detox-header-3{
+        margin-left: 0;
     }
 }
