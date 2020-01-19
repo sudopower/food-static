@@ -475,6 +475,10 @@ td{
         padding-bottom: 0;
         max-width: 100px;
     }
+    .nutrition-banner{
+        width:100% !important;
+        max-width:100% !important
+    }
 }
 
 @media only screen and (min-width:400px) and (max-width:768px){
@@ -524,6 +528,10 @@ td{
         padding-bottom: 0;
         max-width: 100px;
     } 
+    .nutrition-banner{
+        width:100% !important;
+        max-width:100% !important
+    }
 }
 
 @media only screen and (width:768px){
@@ -564,5 +572,9 @@ td{
     }
     .detox-header-3{
         margin-left: 0;
+    }
+    .nutrition-banner{
+        width:100% !important;
+        max-width:100% !important
     }
 }
