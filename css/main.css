@@ -481,6 +481,9 @@ td{
         width:100% !important;
         max-width:100% !important
     }
+    .detox-tips{
+        margin:5px auto 5px 5%;
+    }
 }
 
 @media only screen and (min-width:400px) and (max-width:768px){
@@ -534,6 +537,9 @@ td{
         width:100% !important;
         max-width:100% !important
     }
+    .detox-tips{
+        margin:5px auto 5px 5%;
+    }
 }
 
 @media only screen and (width:768px){
@@ -569,7 +575,7 @@ td{
     .logo img{
         width:150px;
     }
-    .detox-header-2{
+    .detox-header-2 p{
         font-size: 18px;
     }
     .detox-header-3{
@@ -578,5 +584,8 @@ td{
     .nutrition-banner{
         width:100% !important;
         max-width:100% !important
+    }
+    .detox-tips{
+        margin:5px auto 5px 5%;
     }
 }
